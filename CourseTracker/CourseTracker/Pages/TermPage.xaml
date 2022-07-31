@@ -1,12 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CourseTracker.Pages.TermPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="CourseTracker.Pages.TermPage"
+			 Title="Terms">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem x:Name="AddTerm" Text="Add Term" Clicked="AddTerm_OnClicked"></ToolbarItem>
+	</ContentPage.ToolbarItems>
+
+	<ContentPage.Content>
+		<StackLayout Margin="20">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="40"/>
+					<ColumnDefinition Width="40"/>
+					<ColumnDefinition Width="40"/>
+					<ColumnDefinition Width="40"/>
+					<ColumnDefinition Width="40"/>
+				</Grid.ColumnDefinitions>
+				<Label Text="Placeholder text" 
+					   BackgroundColor="Aquamarine"
+					   Grid.Row="0"
+					   Grid.Column="0"
+					   Grid.ColumnSpan="5"/>
+				<Label Text="Start date: " 
+					   BackgroundColor="Aquamarine" 
+					   Grid.Row="1"
+					   Grid.Column="0"
+					   Grid.ColumnSpan="2"/>
+				<Label Text="{Binding TermStartDate}"
+					   BackgroundColor="Aquamarine"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="2"
+                       Grid.Row="1"
+                       Margin="25,0,0,0"/>
+				<Label Text="End date: " 
+					   BackgroundColor="Aquamarine"
+					   Grid.Row="1"
+					   Grid.Column="3"
+					   Grid.ColumnSpan="4"/>
+				<Label Text="{Binding TermEndDate}"
+					   BackgroundColor="Aquamarine"
+                       Grid.Column="4"
+                       Grid.ColumnSpan="5"
+                       Grid.Row="1"
+                       Margin="20,0,0,0"/>
+			</Grid>
+			
+		</StackLayout>
+	</ContentPage.Content>
+
 </ContentPage>

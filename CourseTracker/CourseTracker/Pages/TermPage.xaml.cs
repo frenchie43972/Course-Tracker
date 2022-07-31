@@ -16,5 +16,11 @@ namespace CourseTracker.Pages
 		{
 			InitializeComponent();
 		}
+
+		async void AddTerm_OnClicked(object sender, EventArgs e)
+		{
+			await Navigation.PushAsync(new AddTerm());
+
+		}
 	}
 }

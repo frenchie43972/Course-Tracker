@@ -2,7 +2,6 @@ C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\bin\Debug\netstandar
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\bin\Debug\netstandard2.0\CourseTracker.dll
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\bin\Debug\netstandard2.0\ref\CourseTracker.dll
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\bin\Debug\netstandard2.0\CourseTracker.pdb
-C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\CourseTracker.csproj.AssemblyReference.cache
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\CourseTracker.GeneratedMSBuildEditorConfig.editorconfig
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
@@ -13,3 +12,5 @@ C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandar
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\CourseTracker.dll
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\ref\CourseTracker.dll
 C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\CourseTracker.pdb
+C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\Pages\TermPage.xaml.g.cs
+C:\Code Projects\Course-Tracker\CourseTracker\CourseTracker\obj\Debug\netstandard2.0\Pages\AddTerm.xaml.g.cs
