@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CourseTracker.Classes
 {
-	class Terms
+	public class Terms
 	{
 		[PrimaryKey, AutoIncrement]
 		public int Id { get; set; }

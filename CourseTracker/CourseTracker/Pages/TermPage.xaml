@@ -17,7 +17,7 @@
 					<ColumnDefinition Width="40"/>
 					<ColumnDefinition Width="40"/>
 				</Grid.ColumnDefinitions>
-				<Label Text="Placeholder text" 
+				<Label Text="{Binding TermTitle}" 
 					   BackgroundColor="Aquamarine"
 					   Grid.Row="0"
 					   Grid.Column="0"
@@ -29,10 +29,10 @@
 					   Grid.ColumnSpan="2"/>
 				<Label Text="{Binding TermStartDate}"
 					   BackgroundColor="Aquamarine"
-                       Grid.Column="1"
-                       Grid.ColumnSpan="2"
-                       Grid.Row="1"
-                       Margin="25,0,0,0"/>
+		               Grid.Column="1"
+				       Grid.ColumnSpan="2"
+			           Grid.Row="1"
+			           Margin="25,0,0,0"/>
 				<Label Text="End date: " 
 					   BackgroundColor="Aquamarine"
 					   Grid.Row="1"
@@ -40,13 +40,13 @@
 					   Grid.ColumnSpan="4"/>
 				<Label Text="{Binding TermEndDate}"
 					   BackgroundColor="Aquamarine"
-                       Grid.Column="4"
-                       Grid.ColumnSpan="5"
-                       Grid.Row="1"
-                       Margin="20,0,0,0"/>
+				       Grid.Column="4"
+				       Grid.ColumnSpan="5"
+				       Grid.Row="1"
+				       Margin="20,0,0,0"/>
 			</Grid>
-			
 		</StackLayout>
+
 	</ContentPage.Content>
 
 </ContentPage>
